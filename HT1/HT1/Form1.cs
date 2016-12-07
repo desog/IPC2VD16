@@ -66,6 +66,7 @@ namespace HT1
             label11.Hide();
             button4.Show();
             button5.Hide();
+            button8.Hide();
           
         }
 
@@ -86,7 +87,8 @@ namespace HT1
             label11.Hide();
             button2.Show();
             button4.Hide();
-            button5.Hide(); 
+            button5.Hide();
+            button8.Hide();
 
         }
 
@@ -106,6 +108,7 @@ namespace HT1
             label11.Hide();
             button4.Hide();
             button5.Hide();
+            button8.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -146,6 +149,7 @@ namespace HT1
             button5.Show();
             button4.Hide();
             button2.Hide();
+            button8.Hide();
             textBox5.Show();
             textBox6.Show();
             textBox7.Show();
@@ -178,6 +182,58 @@ namespace HT1
 
             determinante = (matriztmp[0, 0] * matriztmp[1, 1] * matriztmp[2, 2]) + (matriztmp[0, 1] * matriztmp[1, 2] * matriztmp[2, 0]) + (matriztmp[0, 2] * matriztmp[1, 0] * matriztmp[2, 1]) - (matriztmp[0, 2] * matriztmp[1, 1] * matriztmp[2, 0]) - (matriztmp[0, 1] * matriztmp[1, 0] * matriztmp[2, 2]) - (matriztmp[0, 0] * matriztmp[1, 2] * matriztmp[2, 1]);
             textBox4.Text = determinante.ToString();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            label5.Text = "Ingrese 3 Numeros para calcular el MCD";
+            textBox5.Hide();
+            textBox6.Hide();
+            textBox7.Hide();
+            textBox8.Hide();
+            textBox9.Hide();
+            textBox10.Hide();
+            label6.Hide();
+            label7.Hide();
+            label8.Hide();
+            label9.Hide();
+            label10.Hide();
+            label11.Hide();
+            button8.Show();
+            button4.Hide();
+            button5.Hide();
+            button2.Hide();
+
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+            int n1, n2, n3;
+            int mayor = 0;
+            double l = 1;
+
+            n1 = int.Parse(textBox1.Text);
+            n2 = int.Parse(textBox2.Text);
+            n3 = int.Parse(textBox3.Text);
+
+            if (n1 > n2)
+            {
+                mayor = n1;
+            }
+            else { 
+                mayor=n2;
+            }
+
+            if (n3>mayor){
+                mayor = n3;
+            }
+            while ((mayor*l) % n2 !=0 || (mayor*l) % n3 !=0 || (mayor*l)%n1 !=0){
+                l++;
+            }
+            textBox4.Text = Convert.ToString(l * mayor);
+
         }
     }
 }
