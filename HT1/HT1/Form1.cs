@@ -169,6 +169,9 @@ namespace HT1
             int determinante;
             int[,] matriztmp;
             matriztmp = new int[3, 3];
+            try
+            { 
+
 
             matriztmp[0, 0] = int.Parse(textBox1.Text);
             matriztmp[0, 1] = int.Parse(textBox2.Text);
@@ -179,9 +182,13 @@ namespace HT1
             matriztmp[2, 0] = int.Parse(textBox8.Text);
             matriztmp[2, 1] = int.Parse(textBox9.Text);
             matriztmp[2, 2] = int.Parse(textBox10.Text);
-
+            }
+            catch (Exception ex)
+            {
+                
+            }
             determinante = (matriztmp[0, 0] * matriztmp[1, 1] * matriztmp[2, 2]) + (matriztmp[0, 1] * matriztmp[1, 2] * matriztmp[2, 0]) + (matriztmp[0, 2] * matriztmp[1, 0] * matriztmp[2, 1]) - (matriztmp[0, 2] * matriztmp[1, 1] * matriztmp[2, 0]) - (matriztmp[0, 1] * matriztmp[1, 0] * matriztmp[2, 2]) - (matriztmp[0, 0] * matriztmp[1, 2] * matriztmp[2, 1]);
-            textBox4.Text = determinante.ToString();
+            textBox4.Text = determinante.ToString()+ " --201503692--";
         }
 
         private void button7_Click(object sender, EventArgs e)
