@@ -1,0 +1,9 @@
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\bin\Debug\HT1.exe.config
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.Form1.resources
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.Properties.Resources.resources
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.csproj.GenerateResource.Cache
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\bin\Debug\HT1.exe
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\bin\Debug\HT1.pdb
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.exe
+C:\Users\Diego\Documents\HT1\IPC2VD16\HT1\HT1\obj\Debug\HT1.pdb
