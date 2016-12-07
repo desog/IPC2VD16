@@ -1,0 +1,12 @@
+¿Qué entiende como "Commit"?
+Es una Confirmación o cambio que se hace a un proyecto por medio de modificaciones a los documentos que lo componen
+y cada vez que se realiza un cambio se guarda con un nombre diferente para poder saber que modificaciones se hicieron y 
+donde se hicieron.
+
+¿Qué entiende como Merge?
+Es una Unión en el caso de Github es la unión entre distintas ramas que puede que tenga un repositorio en estas ramas
+se puede tener varias versiones de un mismo proyecto y luego unir las versiones y tener un proyecto único.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+Pull es obtener los cambios que se estan realizando en un mismo repositorio es decir obtener los archivos modificados y 
+aceptados que estan en el repositorio, Push es enviar los archivos modificados al repositorio.
